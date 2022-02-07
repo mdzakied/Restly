@@ -36,8 +36,8 @@
             />
             <h2 class="mt-4"><strong>Sory :(</strong></h2>
             <h4>
-              Food Not Yet Available <br />
-              Please Choose Other Food
+              Your Cart is Empty<br />
+              Add Food You Want to Order
             </h4>
           </div>
           <!-- Cart -->
