@@ -27,7 +27,7 @@ Aplikasi web untuk memesan menu restoran yang dibuat menggunakan framework vue.j
 - bootstrap-vue
 - core-js
 - numeral
-- Vue.js
+- vue.js
 - vue-filter-number-format
 - vue-router
 - vue-sweetalert2
