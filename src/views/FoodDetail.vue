@@ -34,9 +34,7 @@
           <h3>
             <strong>{{ product.name }}</strong>
           </h3>
-          <hr />
           <h5>
-            Price :
             <strong>Rp. {{ product.price | numFormat("0,0") }}</strong>
           </h5>
           <form class="mt-4" v-on:submit.prevent>
@@ -46,8 +44,8 @@
                 <div class="col-2 col-lg-1 text-center p-0 ml-3">
                   <button
                     class="btn btn-danger"
-                    v-on:click="pesan.amount -= 1"
-                    :disabled="pesan.amount <= 1 ? '' : disabled"
+                    v-on:click="message.amount -= 1"
+                    :disabled="message.amount <= 1 ? '' : disabled"
                   >
                     -
                   </button>
@@ -56,14 +54,14 @@
                   <input
                     type="number"
                     class="form-control form-jumlah text-center text-light p-0"
-                    v-model="pesan.amount"
+                    v-model="message.amount"
                     style="background-color: transparent; border: none"
                   />
                 </div>
                 <div class="col-2 col-lg-1 text-center p-0">
                   <button
                     class="btn btn-danger"
-                    v-on:click="pesan.amount += 1"
+                    v-on:click="message.amount += 1"
                   >
                     +
                   </button>
@@ -74,13 +72,13 @@
             <div class="form-group">
               <label for="description"> Description</label>
               <textarea
-                v-model="pesan.description"
+                v-model="message.description"
                 class="form-control"
                 placeholder="Spicy, Extra Salt ..."
               ></textarea>
             </div>
 
-            <button type="submit" class="btn btn-success" @click="pemesanan">
+            <button type="submit" class="btn btn-success" @click="order">
               Order
             </button>
           </form>
@@ -102,7 +100,7 @@ export default {
   data() {
     return {
       product: {},
-      pesan: {
+      message: {
         amount: 1,
       },
     };
@@ -111,11 +109,11 @@ export default {
     setProduct(data) {
       this.product = data;
     },
-    pemesanan() {
-      if (this.pesan.amount) {
-        this.pesan.products = this.product;
+    order() {
+      if (this.message.amount) {
+        this.message.products = this.product;
         axios
-          .post("http://localhost:3000/cart", this.pesan)
+          .post("http://localhost:3000/cart", this.message)
           .then(() => {
             this.$router.push({ path: "/cart" });
             this.$swal.fire({

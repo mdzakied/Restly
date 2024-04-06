@@ -15,7 +15,11 @@ Aplikasi web untuk memesan menu restoran yang dibuat menggunakan framework vue.j
 ## Fitur
 
 - Order Menu Makanan
+<<<<<<< HEAD
 - Cart Menu Makanan
+=======
+- Keranjang Menu Makanan
+>>>>>>> 48847bc9745cb716b058cce1dd17f95576e42086
 
 ## Dibuat menggunakan
 

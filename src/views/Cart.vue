@@ -34,7 +34,7 @@
               alt="image empty food"
               style="max-width: 250px"
             />
-            <h2 class="mt-4"><strong>Sory :(</strong></h2>
+            <h2 class="mt-4"><strong>Sorry :(</strong></h2>
             <h4>
               Your Cart is Empty<br />
               Add Food You Want to Order
@@ -122,16 +122,16 @@
                     <input
                       type="text"
                       class="form-control"
-                      v-model="pesan.name"
+                      v-model="message.name"
                       placeholder="Mr. Yondi"
                     />
                   </div>
                   <div class="form-group">
-                    <label for="noMeja">No. Table :</label>
+                    <label for="table">No. Table :</label>
                     <input
                       type="text"
                       class="form-control"
-                      v-model="pesan.noMeja"
+                      v-model="message.table"
                       placeholder="31-B-01"
                     />
                   </div>
@@ -165,7 +165,7 @@ export default {
   data() {
     return {
       cart: [],
-      pesan: {},
+      message: {},
     };
   },
   methods: {
@@ -216,10 +216,10 @@ export default {
         })
         .then((result) => {
           if (result.isConfirmed) {
-            if (this.pesan.name && this.pesan.noMeja) {
-              this.pesan.cart = this.cart;
+            if (this.message.name && this.message.table) {
+              this.message.cart = this.cart;
               axios
-                .post("http://localhost:3000/orders", this.pesan)
+                .post("http://localhost:3000/orders", this.message)
                 .then(() => {
                   // Hapus Semua Cart
                   this.cart.map(function (item) {
