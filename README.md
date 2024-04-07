@@ -1,10 +1,15 @@
 <h1 align="center" id="title">Restly</h1>
 
-<p align="center"><img src="" alt="project-image"></p>
 
-<p id="description">Restly is a demo web application for managing data order dine in. This project uses HTML CSS JavaScript Vue.js Bootstrap and Json Server for backend.</p>
+<p align="center" id="description">Restly is a demo web application for managing data resto for dine in order.</p>
 
-  
+<h2>🚀 Demo</h2>
+
+Here're some of the demo project's :
+
+<img src="https://github.com/mdzakied/Restly/assets/87967665/42c4e4ef-af3c-44b7-9a85-482321f1a166" alt="restly-dekstop" height="200">
+<img src="https://github.com/mdzakied/Restly/assets/87967665/0a50da3b-4bff-4ebf-925c-d69e8698c9c4" alt="restly-dekstop" height="200">
+
 <h2>🧐 Features</h2>
 
 Here're some of the project's best features:
