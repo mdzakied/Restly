@@ -3,12 +3,10 @@
 
 <p align="center" id="description">Restly is a demo web application for managing data resto for dine in order.</p>
 
-<h2>🚀 Demo</h2>
+<h2>📷 Project Screenshots :</h2>
 
-Here're some of the demo project's :
+<img src="https://github.com/mdzakied/Restly/assets/87967665/7891f1d2-21e2-4dc4-a330-c2563f38897a" border="0" width="350">
 
-<img src="https://github.com/mdzakied/Restly/assets/87967665/42c4e4ef-af3c-44b7-9a85-482321f1a166" alt="restly-dekstop" height="200">
-<img src="https://github.com/mdzakied/Restly/assets/87967665/0a50da3b-4bff-4ebf-925c-d69e8698c9c4" alt="restly-dekstop" height="200">
 
 <h2>🧐 Features</h2>
 
