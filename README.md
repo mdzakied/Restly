@@ -1,38 +1,59 @@
-# Restly
-Aplikasi web untuk memesan menu restoran yang dibuat menggunakan framework vue.js, framework layout bootstrap dan json server.
-<p align="left">
-<br>
-   <img src="https://user-images.githubusercontent.com/87967665/152106458-48ac6704-ca8d-4318-8caa-3a14899ef7bf.png" border="0" width="350">
-</p>
+<h1 align="center" id="title">Restly</h1>
 
-## Cara Instal
+<p align="center"><img src="" alt="project-image"></p>
 
-1. download / clone repo Database-Restly https://github.com/mdzakied/Database-Restly.git.
-2. jalankan perintah `npm install -g json-server` untuk install json server dan `json-server --watch db.json` untuk menjalankan json server.
-3. download / clone repo ini kemudian ketik `npm install` di code editor.
-4. jalankan perintah `npm start-dev` untuk menjalankan aplikasinya.
+<p id="description">Restly is a demo web application for managing data order dine in. This project uses HTML CSS JavaScript Vue.js Bootstrap and Json Server for backend.</p>
 
-## Fitur
+  
+<h2>🧐 Features</h2>
 
-- Order Menu Makanan
-<<<<<<< HEAD
-- Cart Menu Makanan
-=======
-- Keranjang Menu Makanan
->>>>>>> 48847bc9745cb716b058cce1dd17f95576e42086
+Here're some of the project's best features:
 
-## Dibuat menggunakan
+*   Show All Menu
+*   Show Menu Detail
+*   Search Menu by Name
+*   Add Menu to Chart
+*   Delete Menu to Chart
+*   Add Order Menu
 
-- HTML
-- CSS
-- JavaScript
+<h2>🛠️ Installation Steps:</h2>
 
-- axios
-- bootstrap-vue
-- core-js
-- numeral
-- vue.js
-- vue-filter-number-format
-- vue-router
-- vue-sweetalert2
-- JSON Server
+<p>1. Prepare database restly with JSON Server</p>
+
+[Repo db_restly](https://github.com/mdzakied/db_restly)
+
+<p>2. Clone Repository</p>
+
+```
+git clone https://github.com/mdzakied/Restly
+```
+
+<p>3. NPM Install</p>
+
+```
+npm install
+```
+
+<p>4. Run Project</p>
+
+```
+npm run serve
+```
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   HTML
+*   CSS
+*   Javascript
+*   axios
+*   bootstrap-vue
+*   core-js
+*   numeral
+*   vue.js
+*   vue-filter-number-format
+*   vue-router
+*   vue-sweetalert2
