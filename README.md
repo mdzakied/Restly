@@ -12,7 +12,7 @@ Here're some of the demo project's :
 
 <h2>🧐 Features</h2>
 
-Here're some of the project's best features:
+Here're some of the project's best features :
 
 *   Show All Menu
 *   Show Menu Detail
@@ -21,7 +21,7 @@ Here're some of the project's best features:
 *   Delete Menu to Chart
 *   Add Order Menu
 
-<h2>🛠️ Installation Steps:</h2>
+<h2>🛠️ Installation Steps :</h2>
 
 <p>1. Prepare database restly with JSON Server</p>
 
@@ -49,7 +49,7 @@ npm run serve
   
 <h2>💻 Built with</h2>
 
-Technologies used in the project:
+Technologies used in the project :
 
 *   HTML
 *   CSS
