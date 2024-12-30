@@ -1,23 +1,32 @@
 <h1 align="center" id="title">Restly</h1>
 
+<p align="center" id="description">Web app for efficient management of dine-in orders at restaurants.</p>
 
-<p align="center" id="description">Restly is a demo web application for managing data resto for dine in order.</p>
+## 🌟 Project Overview
+
+**Restly** is a web application for managing dine-in orders at restaurants. Key features include:
+
+- **Menu Display 📜**: View all menu items and their details.
+- **Item Search 🔍**: Find menu items by name.
+- **Cart Management 🛒**: Add or remove items from the cart.
+- **Order Placement 📦**: Place your order after reviewing your cart.
+
+---
+
+## ⚙️ Technologies Used
+
+- **Frontend 💻**: Vue.js
+- **Styling 🎨**: Bootstrap-Vue
+- **Backend 🖥️**: JSON Server (local database)
+- **API 📡**: RESTful API
+
+---
 
 <h2>📷 Project Screenshots :</h2>
 
 <img src="https://github.com/mdzakied/Restly/assets/87967665/7891f1d2-21e2-4dc4-a330-c2563f38897a" border="0" width="350">
 
-
-<h2>🧐 Features</h2>
-
-Here're some of the project's best features :
-
-*   Show All Menu
-*   Show Menu Detail
-*   Search Menu by Name
-*   Add Menu to Chart
-*   Delete Menu to Chart
-*   Add Order Menu
+---
 
 <h2>🛠️ Installation Steps :</h2>
 
@@ -43,20 +52,4 @@ npm install
 npm run serve
 ```
 
-  
-  
-<h2>💻 Built with</h2>
-
-Technologies used in the project :
-
-*   HTML
-*   CSS
-*   Javascript
-*   axios
-*   bootstrap-vue
-*   core-js
-*   numeral
-*   vue.js
-*   vue-filter-number-format
-*   vue-router
-*   vue-sweetalert2
+---
