@@ -37,7 +37,7 @@
 <p>2. Clone Repository</p>
 
 ```
-git clone https://github.com/mdzakied/Restly
+git clone https://github.com/mdzakied/Restly.git
 ```
 
 <p>3. NPM Install</p>
